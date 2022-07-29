@@ -1,7 +1,9 @@
 # tabel-subnet-dan-subnetingIPv4classC
 <b>IP Address</b> adalah serangkaian angka yang menjadi identitas perangkat yang terhubung ke internet atau infrastruktur jaringan lainnya. Fungsinya seperti nomor rumah pada alamat, yaitu untuk memastikan agar data dikirimkan ke perangkat yang tepat. Panjang rangkaian angkanya adalah dari 0.0.0.0 sampai 255.255.255.255.
 </br>
+</br>
 sedangkan <b>Subnetting</b> adalah proses untuk memecahkan atau membagi sebuat network menjadi beberapa network yang lebih kecil, atau Subnetting merupakan sebuah teknik yang mengizinkan para administrator jaringan untuk memanfaatkan 32 bit IP address yang tersedia dengan lebih efisien.
+</br>
 </br>
 IPv4 merupakan alamat Internet Protocol versi 4, alamat IPv4 memiliki beberapa kelas, antara lain class A, B, C, D, dan experimental. pada pembahasan kali ini saya akan membahas subnet pada IPv4 class C. IPv4 class C terdiri dari 4 octet atau 4 block yang dipisahkan oleh titik, nah pada block/octet 1 - 3 merupakan octet network dan octect ke-4 merupakan octect host, setiap octect direpresentasikan dengan 8 bit-per-octect hingga keseluruhannya IPv4 class C memiliki 32 bit . IPv4 tediri dari 192 - 223 range address.
 
