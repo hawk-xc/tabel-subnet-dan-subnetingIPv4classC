@@ -6,20 +6,26 @@ sedangkan <b>Subnetting</b> adalah proses untuk memecahkan atau membagi sebuat n
 </br>
 </br>
 IPv4 merupakan alamat Internet Protocol versi 4, alamat IPv4 memiliki beberapa kelas, antara lain class A, B, C, D, dan experimental. pada pembahasan kali ini saya akan membahas subnet pada IPv4 class C. IPv4 class C terdiri dari 4 octet atau 4 block yang dipisahkan oleh titik, nah pada block/octet 1 - 3 merupakan octet network dan octect ke-4 merupakan octect host, setiap octect direpresentasikan dengan 8 bit-per-octect hingga keseluruhannya IPv4 class C memiliki 32 bit . IPv4 tediri dari 192 - 223 range address.
+</br>
+</br>
+Subnet mask adalah istilah teknologi Informasi yang membedakan Network ID dan Host ID atau sebagai penentu porsi Network ID dan Host ID pada deretan kode biner. Fungsi dari subnet mask sendiri adalah untuk membedakan Network ID dengan Host ID dan menentukan alamat tujuan paket data apakah local atau remote.
+</br>
+</br>
+Apa itu Network ID dan Host ID ? Network ID adalah bagian dari IP Address yg berfungsi untuk menunjukan di jaringan mana komputer atau device tersebut berada, sedangkan Host ID menunjukan server, router, workstation, dan host TCP/IP lainnya yang berada di dalam jaringan tersebut. Terdapat 2 cara untuk mempresentasikan Subnet mask yaitu dengan cara notasi desimal bertitik dan notasi panjang prefix.
 
 # table subneting IPv4 Class C
-| bits/prefix | hosts | usable hosts | netmask | 
-|------|-------|--------------|---------|
-| /23 | 512 | 510 | 255.255.254.0 |
-| /24 | 256 | 254 | 255.255.255.0 |
-| /25 | 128 | 126 | 255.255.255.128 |
-| /26 | 64 | 62 | 255.255.255.192 |
-| /27 | 32 | 30 | 255.255.255.224 |
-| /28 | 16 | 14 | 255.255.255.240 |
-| /29 | 8 | 6 | 255.255.255.248 |
-| /30 | 4 | 2 | 255.255.255.252 |
-| /31 | 1 | 1 | 255.255.255.255 |
-| /32 | 1 | 1 | 255.255.255.255 |
+| bits/prefix | hosts | usable hosts | netmask | binnary |
+|------|-------|--------------|---------|----------------|
+| /23 | 512 | 510 | 255.255.254.0 | 11111111.11111111.11111110.00000000 |
+| /24 | 256 | 254 | 255.255.255.0 | 11111111.11111111.11111111.00000000 |
+| /25 | 128 | 126 | 255.255.255.128 | 11111111.11111111.11111111.10000000 |
+| /26 | 64 | 62 | 255.255.255.192 | 11111111.11111111.11111111.11000000 |
+| /27 | 32 | 30 | 255.255.255.224 | 11111111.11111111.11111111.11100000 |
+| /28 | 16 | 14 | 255.255.255.240 | 11111111.11111111.11111111.11110000 |
+| /29 | 8 | 6 | 255.255.255.248 | 11111111.11111111.11111111.11111000 |
+| /30 | 4 | 2 | 255.255.255.252 | 11111111.11111111.11111111.11111100 |
+| /31 | 1 | 1 | 255.255.255.255 | 11111111.11111111.11111111.11111111 |
+| /32 | 1 | 1 | 255.255.255.255 | 11111111.11111111.11111111.11111111 |
 
 # cara menghitung bits dan subnet mask
 cara kita untuk menghitung jumlah host dengan prefix. kita hanya perlu tahu bahwa bits /30 mengandung 4 host. dimana bisa untuk kita jadian acuan.
